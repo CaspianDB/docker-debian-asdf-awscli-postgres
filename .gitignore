@@ -1,0 +1,5 @@
+*~
+*.tar
+?.*
+
+# not in .dockerignore
