@@ -8,7 +8,7 @@ COPY .tool-versions /root/
 
 RUN apt-get -q -y update
 RUN apt-get -q -y --no-install-recommends install \
-  bzip2 jq pv groff-base xz-utils
+  bzip2 git-lfs groff-base jq openssh-client procps pv xz-utils
 RUN apt-get -q -y --no-install-recommends install \
   libreadline8
 RUN apt-get -q -y --no-install-recommends install \

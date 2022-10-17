@@ -13,8 +13,10 @@ Container image with:
 Additional Debian packages:
 
 - [bzip2](https://packages.debian.org/bullseye/bzip2)
+- [git-lfs](https://packages.debian.org/bullseye/git-lfs)
 - [groff-base](https://packages.debian.org/bullseye/groff-base)
-- [jq](https://packages.debian.org/bullseye/jq)
+- [openssh-client](https://packages.debian.org/bullseye/openssh-client)
+- [procps](https://packages.debian.org/bullseye/procps)
 - [pv](https://packages.debian.org/bullseye/pv)
 - [xz-utils](https://packages.debian.org/bullseye/xz-utils)
 
@@ -29,6 +31,7 @@ CLI:
 ```shell
 docker pull caspiandb/debian-asdf-awscli-postgres
 docker run -v ~/.aws:/root/.aws -e AWS_PROFILE caspiandb/debian-asdf-awscli-postgres aws sts get-caller-identity
+docker run caspiandb/debian-asdf-awscli-postgres psql --version
 ```
 
 Dockerfile:
