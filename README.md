@@ -14,6 +14,7 @@ Additional Debian packages:
 
 - [bzip2](https://packages.debian.org/bullseye/bzip2)
 - [git-lfs](https://packages.debian.org/bullseye/git-lfs)
+- [gnupg](https://packages.debian.org/bullseye/gnupg)
 - [groff-base](https://packages.debian.org/bullseye/groff-base)
 - [openssh-client](https://packages.debian.org/bullseye/openssh-client)
 - [procps](https://packages.debian.org/bullseye/procps)
